@@ -1,0 +1,102 @@
+
+a = 320
+b = 34
+c = 12
+d = 44
+e = 230
+f = 10
+g = 95
+h = 77
+i = 18
+j = 56
+k = 91
+l = 63
+m = 120
+n = 5
+o = 88
+p = 42
+q = 27
+r = 14
+s = 66
+t = 81
+u = 39
+v = 53
+w = 7
+x = 19
+y = 102
+z = 8
+
+#define the number
+def show_values():
+    print ("if a =", a)
+    print ("if b =", b)    
+    print ("if c =", c)
+    print ("if d =", d)
+    print ("if e =", e)
+    print ("if f =", f)
+    print ("if g =", g)
+    print ("if h =", h)
+    print ("if i =", i)
+    print ("if j =", j)
+    print ("if l =", l)
+    print ("if m =", m)
+    print ("if n =", n)
+    print ("if o =", o)
+    print ("if p =", p)
+    print ("if q =", q)
+    print ("if r =", r)
+    print ("if s =", s)
+    print ("if t =", t)
+    print ("if u =", u)
+    print ("if v =", v)
+    print ("if w =", w)
+    print ("if x =", x)
+    print ("if y =", y)
+    print ("if z =", z)
+
+#==================================================
+#-------------------question 1---------------------
+#==================================================
+
+show_values()
+
+answer1 = a + b + c + d + e + f + g
+question1 = int(input("so what is a + b + c + d + e + f + g: "))
+
+
+if question1 == answer1:
+    print ("you are correct.")
+else:
+    print ("you are incorrect.")
+
+
+#==================================================
+#------------------ question 2---------------------
+#==================================================
+while True:
+    yes_no = input("do want next question?\nYes or No: ")
+
+    if yes_no == "yes":
+        show_values()
+
+        answer2 = a + d + e
+        question2 = int(input("so what is a + d + e: "))
+
+        if question2 == answer2:
+            print ("you are correct")
+        else:
+            print ("you are inccorect\nnext question?")
+        yes_no = input("do want next question?\nYes or No: ")
+
+    elif yes_no == "no": 
+        print ("GAME OVER!")
+        break
+    else:
+        yes_no = str(input("last question?\nYes or No: "))
+
+#==================================================
+#-------------------question 3---------------------
+#==================================================\
+
+
+           *YOU CAN ADD IF YOU WANT*
